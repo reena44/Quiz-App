@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Quiz1Activity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/q1"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rd_group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/q1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/services_life_cycle"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=" onRecieve()"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:text="final()"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Service life cycle is same as activity life cycle."
+            android:textSize="16dp" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/q2"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rd_group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/q2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="implicitBroadcast()"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="sendIntent()"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="onRecieve()"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/q2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/avialable_broadcast_receiver"
+            android:textSize="16dp" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_start_btn"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:text="next"
+        android:drawableRight="@drawable/ic_next"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
+</ScrollView>

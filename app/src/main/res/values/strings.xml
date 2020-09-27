@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KotlinAndroidQuizApp</string>
+    <string name="q1">Q 1 - What is the life cycle of services in android?</string>
+    <string name="q2">Q 2 - How many broadcast receivers are available in android?</string>
+
+    <string name="q3">Q 3 -What is JNI in android?</string>
+
+    <string name="q4">Q 4 -  What is APK in android?</string>
+
+    <string name="q5">Q 5 - What is JSON in android?</string>
+
+    <string name="q6">Q 6- In Which Directory XML Layout Files Are Stored</string>
+
+    <string name="q7">Q 7 -What are the main components in android?</string>
+
+    <string name="q8">Q 8- What is the name of the auto-generated layout file in the new project you created with Android Studio?</string>
+    <string name="q9">Q 9- The AndroidManifest.xml file contains important information that the Android system needs to run your app. Choose two from the following list that should be defined in AndroidManifest.xml.</string>
+    <string name="q10">Q 10 -In Android Studio, which tool do you use to create a new virtual device to run in the emulator?</string>
+    <string name="q11">Q 11. View Pager Is Used For
+</string>
+    <string name="result">Your Score is:</string>
+    <string name="services_life_cycle"><![CDATA[onCreate()−>onStartCommand()−>onDestory()]]></string>
+    <string name="avialable_broadcast_receiver">sendBroadcast(),sendOrderBroadcast(),and sendStickyBroadcast().</string>
+    <string name="jni">Java native interface.</string>
+
+
+</resources>
