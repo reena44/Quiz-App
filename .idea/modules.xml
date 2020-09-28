@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Quiz-App.iml" filepath="$PROJECT_DIR$/.idea/modules/Quiz-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KotlinAndroidQuizApp.iml" filepath="$PROJECT_DIR$/.idea/modules/KotlinAndroidQuizApp.iml" group="KotlinAndroidQuizApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="KotlinAndroidQuizApp/app" />
     </modules>
   </component>
 </project>
