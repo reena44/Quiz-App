@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KotlinAndroidQuizApp</string>
+    <string name="app_name">Android Quiz App</string>
     <string name="q1">Q 1 - What is the life cycle of services in android?</string>
     <string name="q2">Q 2 - How many broadcast receivers are available in android?</string>
 
@@ -11,17 +11,66 @@
 
     <string name="q6">Q 6- In Which Directory XML Layout Files Are Stored</string>
 
-    <string name="q7">Q 7 -What are the main components in android?</string>
+    <string name="q7">Q 7 - Which file extension is used to save Kotlin files.</string>
 
     <string name="q8">Q 8- What is the name of the auto-generated layout file in the new project you created with Android Studio?</string>
-    <string name="q9">Q 9- The AndroidManifest.xml file contains important information that the Android system needs to run your app. Choose two from the following list that should be defined in AndroidManifest.xml.</string>
+    <string name="q9">Q 9- The AndroidManifest.xml file contains important information that the Android system needs to run your app. Choose one from the following list that should be defined in AndroidManifest.xml.</string>
     <string name="q10">Q 10 -In Android Studio, which tool do you use to create a new virtual device to run in the emulator?</string>
     <string name="q11">Q 11. View Pager Is Used For
 </string>
-    <string name="result">Your Score is:</string>
+    <string name="result">Your Score is: </string>
     <string name="services_life_cycle"><![CDATA[onCreate()−>onStartCommand()−>onDestory()]]></string>
     <string name="avialable_broadcast_receiver">sendBroadcast(),sendOrderBroadcast(),and sendStickyBroadcast().</string>
     <string name="jni">Java native interface.</string>
+    <string name="try_again">Please  try again!!</string>
+    <string name="great_work">Great Work!!</string>
+    <string name="full_marks">Congrates you passed the test with full marks!!</string>
+    <string name="Next">next</string>
+    <string name="apk">Android packaging kit</string>
+    <string name="slect_both">Please select both answers first</string>
+    <string name="json">C - Java Script Object Notation</string>
+    <string name="layout">D - /res/layout</string>
+    <string name="kt">.kt or .kts</string>
+    <string name="activity_main">activity_main.xml</string>
+    <string name="permissions">permissions</string>
+    <string name="avd">AVD Manager</string>
+    <string name="end_quiz">end quiz</string>
+    <string name="android_quiz_app">Android Quiz App</string>
+    <string name="start_quiz">Start quiz</string>
+    <string name="onrecieve">onRecieve()</string>
+    <string name="service_life_cycle_is_same_as_activity_life_cycle">Service life cycle is same as activity life cycle.</string>
+    <string name="finall">final()</string>
+    <string name="implicitbroadcast">implicitBroadcast()</string>
+    <string name="sendintent">sendIntent()</string>
+    <string name="java_network_interface">Java network interface</string>
+    <string name="java_interface">Java interface</string>
+    <string name="image_editable_tool">Image editable tool</string>
+    <string name="android_packages">Android packages</string>
+    <string name="android_pack">Android Pack</string>
+    <string name="none_of_the_above">None of the above.</string>
+    <string name="a_java_script_object_native">A - Java Script Object Native</string>
+    <string name="b_java_script_oriented_notation">B - Java Script Oriented Notation</string>
+    <string name="c_java_script_object_notation">C - Java Script Object Notation</string>
+    <string name="d_none_of_the_above">D - None of the Above</string>
+    <string name="a_assets">A-/assets</string>
+    <string name="b_src">B - /src</string>
+    <string name="c_res_values">C - res/values</string>
+    <string name="d_res_layout">D - /res/layout</string>
+    <string name="java">.java</string>
+    <string name="kot">.kot</string>
+    <string name="android">.android</string>
+    <string name="mainactivity_java">MainActivity.java</string>
+    <string name="android_manifest_xml">Android Manifest.xml</string>
+    <string name="activity_main_xml">activity_main.xml</string>
+    <string name="build_gradle">build.gradle</string>
+    <string name="string_resources">string resources</string>
+    <string name="images_resources">images resources</string>
+    <string name="all_of_the_above">All of the above</string>
+    <string name="physical_android_device">Physical Android Device</string>
+    <string name="sdk_manager">SDK Manager</string>
+    <string name="theme_editor">Theme Editor</string>
+    <string name="end_test">end test</string>
+    <string name="retake_quiz">Retake quiz</string>
 
 
 </resources>

@@ -1,4 +1,4 @@
-package com.example.kotlinandroidquizapp
+package com.example.androidquiz
 
 import org.junit.Test
 

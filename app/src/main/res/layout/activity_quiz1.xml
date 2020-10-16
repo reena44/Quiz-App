@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="8dp"
+    android:padding="10dp"
+    android:scrollbars="none"
     android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
@@ -40,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text=" onRecieve()"
+            android:text="@string/onrecieve"
             android:textSize="16dp" />
 
         <RadioButton
@@ -49,7 +50,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginTop="10dp"
-            android:text="final()"
+            android:text="@string/finall"
             android:textSize="16dp" />
 
         <RadioButton
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Service life cycle is same as activity life cycle."
+            android:text="@string/service_life_cycle_is_same_as_activity_life_cycle"
             android:textSize="16dp" />
     </RadioGroup>
 
@@ -84,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="implicitBroadcast()"
+            android:text="@string/implicitbroadcast"
             android:textSize="16dp" />
 
         <RadioButton
@@ -92,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="sendIntent()"
+            android:text="@string/sendintent"
             android:textSize="16dp" />
 
         <RadioButton
@@ -100,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="onRecieve()"
+            android:text="@string/onrecieve"
             android:textSize="16dp" />
 
         <RadioButton
@@ -109,6 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/avialable_broadcast_receiver"
+            android:layout_marginBottom="20dp"
             android:textSize="16dp" />
     </RadioGroup>
 
@@ -119,11 +121,13 @@
         android:layout_gravity="center"
         android:background="@drawable/bg_start_btn"
         android:padding="8dp"
+        android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
-        android:text="next"
+        android:text="@string/Next"
+        android:textStyle="bold"
         android:drawableRight="@drawable/ic_next"
         android:textColor="@android:color/white"
-        android:textSize="18dp" />
+        android:textSize="16dp" />
 
 
 </LinearLayout>

@@ -1,129 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="8dp"
-    android:layout_height="match_parent">
-<LinearLayout android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context=".Quiz5Activity">
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:padding="8dp">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_q9"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/q9"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent" />
-<androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/q1_1"
+        android:orientation="vertical"
+        tools:context=".Quiz5Activity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q9"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q9_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
+            android:padding="8dp"
+            android:text="@string/string_resources"
+            android:textSize="16dp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q9_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="@android:color/white"
             android:padding="8dp"
-    android:drawableRight="@drawable/ic_check"
-            android:text="string resources"
+            android:text="@string/images_resources"
             android:textSize="16dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q1_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="activities in app"
-        android:padding="8dp"
-        android:drawableRight="@drawable/ic_check"
-
-            android:textSize="16dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q1_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-           android:layout_marginTop="10dp"
-            android:text="images resources"
-        android:padding="8dp"
-        android:drawableRight="@drawable/ic_check"
-            android:textSize="16dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q1_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-        android:padding="8dp"
-        android:drawableRight="@drawable/ic_check"
-        android:text="permissions"
-            android:textSize="16dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_q10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/q10"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/q2_1"
+            android:id="@+id/q9_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="@android:color/white"
             android:padding="8dp"
-            android:drawableRight="@drawable/ic_check"
-            android:text="Physical Android Device"
+            android:text="@string/permissions"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/q2_2"
+            android:id="@+id/q9_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
             android:padding="8dp"
-            android:drawableRight="@drawable/ic_check"
-            android:text="AVD Manager"
+            android:text="@string/all_of_the_above"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/q2_3"
+            android:id="@+id/tv_q10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="SDK Manager"
+            android:layout_marginTop="20dp"
+            android:text="@string/q10"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
             android:padding="8dp"
-            android:drawableRight="@drawable/ic_check"
+            android:text="@string/physical_android_device"
             android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/q2_4"
+            android:id="@+id/q10_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
             android:padding="8dp"
-            android:drawableRight="@drawable/ic_check"
-            android:text="Theme Editor"
+            android:text="@string/avd"
             android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_next1"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/bg_start_btn"
-        android:onClick="nextScreen5"
-        android:padding="8dp"
-        android:layout_marginTop="20dp"
-        android:text="next"
-        android:drawableRight="@drawable/ic_next"
-        android:textColor="@android:color/white"
-        android:textSize="18dp" />
-</LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q10_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:padding="8dp"
+            android:text="@string/sdk_manager"
+            android:textSize="16dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q10_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/white"
+            android:padding="8dp"
+            android:text="@string/theme_editor"
+            android:textSize="16dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_start_btn"
+            android:drawableRight="@drawable/ic_next"
+            android:onClick="nextScreen5"
+            android:padding="8dp"
+            android:text="@string/end_test"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
 </ScrollView>

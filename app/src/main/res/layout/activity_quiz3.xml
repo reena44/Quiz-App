@@ -1,127 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="8dp"
-    android:layout_height="match_parent">
-<LinearLayout android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context=".Quiz3Activity">
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:padding="10dp">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_q5"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/q5"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        tools:context=".Quiz3Activity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q5"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/q1_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
             android:padding="6dp"
-            android:text="A - Java Script Object Native"
+            android:text="@string/a_java_script_object_native"
             android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/q1_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:padding="6dp"
-            android:text="B - Java Script Oriented Notation"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:padding="6dp"
+            android:text="@string/b_java_script_oriented_notation"
             android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/q1_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:padding="6dp"
-        android:text="C - Java Script Object Notation"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:background="@android:color/white"
+            android:text="@string/c_java_script_object_notation"
             android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/q1_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:paddingBottom="20dp"
-        android:padding="6dp"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:paddingBottom="20dp"
+            android:text="@string/d_none_of_the_above"
+            android:textSize="16dp" />
 
-        android:text="D - None of the Above"
-         android:textSize="16dp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_q6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/q6"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/q6"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q2_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="A-/assets"
-        android:padding="6dp"
-        android:textSize="16dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="6dp"
+            android:text="@string/a_assets"
+            android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q2_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="B - /src"
-        android:padding="6dp"
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:text="@string/b_src"
 
-        android:textSize="16dp" />
+            android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q2_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="C - res/values"
-        android:padding="6dp"
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:text="@string/c_res_values"
 
-        android:textSize="16dp" />
+            android:textSize="16dp" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/q2_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:padding="6dp"
-        android:text="D - /res/layout"
-        android:layout_marginBottom="20dp"
-        android:textSize="16dp" />
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_next1"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/bg_start_btn"
-        android:onClick="nextScreen3"
-        android:padding="8dp"
-        android:layout_marginTop="20dp"
-        android:text="next"
-        android:drawableRight="@drawable/ic_next"
-        android:textColor="@android:color/white"
-        android:textSize="18dp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="6dp"
+            android:text="@string/d_res_layout"
+            android:textSize="16dp" />
 
-</LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_start_btn"
+            android:drawableRight="@drawable/ic_next"
+            android:onClick="nextScreen3"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/Next"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
 </ScrollView>
